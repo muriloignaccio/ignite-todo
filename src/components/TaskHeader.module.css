@@ -1,0 +1,33 @@
+.taskHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.taskCountContainer {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.createdTasks {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.completedTasks {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.taskCount {
+    background-color: var(--gray-400);
+    border-radius: 999px;
+
+    padding: 0.125rem 0.5rem;
+
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--gray-200);
+}
